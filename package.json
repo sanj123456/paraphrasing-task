@@ -1,0 +1,27 @@
+{
+  "name": "paraphrasing-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --experimental-modules test.mjs",
+    "start": "node --experimental-modules paraphrasing.mjs",
+    "coverage": "nyc --reporter=html jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0",
+    "nlpcloud": "^2.0.2",
+    "sinon": "^17.0.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jest": "^27.4.3",
+    "nyc": "^15.1.0"
+  }
+}
